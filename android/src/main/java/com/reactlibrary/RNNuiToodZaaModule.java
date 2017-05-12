@@ -16,8 +16,8 @@ public class RNNuiToodZaaModule extends ReactContextBaseJavaModule {
   }
 
   @ReactMethod
-  public void show(String message, Callback duration) {
-    Callback.invoke("sssssssss" + message);
+  public void show(String message, Callback cb) {
+    cb.invoke("sssssssss" + message);
   }
 
 
